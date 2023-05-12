@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Random NASA Pictures</title>
+    <link rel="stylesheet" type="text/css" href="/style.css" />
+  </head>
+
+  <body>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/2449px-NASA_logo.svg.png" alt="" class="logo">
+    <h1>Random NASA Pictures</h1>
+    <div class="container">
+    <button onclick="location.reload()">Get Random Picture</button>
+    <div class="image-container">
+      <img src="<%= picture.url %>" alt="NASA Picture" />
+      <div class="description">
+          <h2><%= picture.title %></h2>
+          <p class="date">Date: <%= picture.date %></p>
+          <p><%= picture.explanation %></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
