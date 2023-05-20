@@ -71,3 +71,7 @@ button {
 .description p {
   line-height: 1.6;
 }
+
+footer {
+  margin-bottom: 16px;
+}
